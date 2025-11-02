@@ -21,7 +21,7 @@
 > 본 프로젝트는 **청년층의 여행 기회 격차를 완화하고 경제적 부담을 줄이는 것**을 목표로 합니다.  
 > 단순한 여행 매칭 서비스를 넘어, **함께 여행하며 비용을 절감하고 새로운 관계를 형성할 수 있는 실질적 지원 플랫폼**입니다.
 
-### 💡 기획 배경
+## 💡 기획 배경
 
 
 1. **여행 기회 격차 해소**  
@@ -99,7 +99,6 @@
 
 <img width="1590" height="747" alt="스크린샷 2025-10-31 164354" src="https://github.com/user-attachments/assets/397c451b-ad18-4a2f-a746-f5f1ea5bde30" />
 
-## 👨‍💻 담당 업무 (Responsibilities)
 
 ### 🧾 마이페이지 (My Page)
 - 내 정보 조회 및 수정, 회원 탈퇴
@@ -150,6 +149,34 @@
 > - 모든 날짜 문자열이 `"yyyy.MM.dd"` 형식으로 일관성 있게 표시됨.
 
 ---
+
+### 2️⃣ TooManyResultsException 발생 (selectOne 다중 결과)
+
+#### 🧠 문제 상황
+
+<img width="1225" height="174" alt="트러블슈팅2_문제코드" src="https://github.com/user-attachments/assets/31928230-128d-419a-9451-d68da9c3db3d" />
+
+> `MyBatis`의 `selectOne()`은 **단일 행만 반환**해야 하지만,  
+> 중복 가능한 `purchaseId`를 조건으로 사용해 **여러 행이 반환되며 예외 발생**.
+
+### ✅ 해결 코드
+
+<img width="416" height="85" alt="트러블슈팅2_해결코드" src="https://github.com/user-attachments/assets/8ee7ab5c-0bf1-49d4-bdfb-9bbe98648cb1" />
+
+
+> **조회 조건을 중복 불가능한 PK(`paymentStatusId`)로 변경.**  
+> 해당 컬럼은 `tbl_payment_status` 테이블의 기본키로,  
+> 항상 단일 결과만 반환되므로 `selectOne()`에서 안전하게 사용 가능.
+
+---
+
+# 🧪QA Test
+
+<img width="1627" height="706" alt="스크린샷 2025-11-02 124243" src="https://github.com/user-attachments/assets/59eb9b38-1032-4854-84ea-d84e2ef95ed5" />
+
+### 📋 개요
+> 프로젝트 기능에 대한 QA 테스트를 진행하였습니다.  
+> 테스트 환경은 로컬 및 배포 서버에서 동일한 조건으로 수행되었습니다.
 
 ## 🧭 총평 (Project Retrospective)
 
