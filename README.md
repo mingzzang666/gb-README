@@ -1,3 +1,212 @@
-<h1 align="center">
-<img src= "https://private-user-images.githubusercontent.com/218904830/508032599-9ddbd768-be49-4470-b4cd-b28934ddb922.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjE4OTExNjUsIm5iZiI6MTc2MTg5MDg2NSwicGF0aCI6Ii8yMTg5MDQ4MzAvNTA4MDMyNTk5LTlkZGJkNzY4LWJlNDktNDQ3MC1iNGNkLWIyODkzNGRkYjkyMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAzMVQwNjA3NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MTQ4YzM1YTBjNjQ0NDk5YjNmZmYxODE4YmZiNTg5NzJkMzVmMjk1ZTMzMmUxMjA2MGI2N2NkMTM2NTU0NTUyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Ze5OPUh60WzksPbv22e1_-F2-y196f251jpJfRwFdPA" width="40" style="vertical-align: middle; margin-right: 10px;"> Crew Station
+<h1 align="left">
+  <img src="https://github.com/user-attachments/assets/7e536894-8ed5-4478-ac44-993e6a2b6576"
+       width="40"
+       style="vertical-align: middle; margin-right: 8px; position: relative; top: 4px;">
+  Crew Station
 </h1>
+
+> **Crew Station**은 여행자들이 연결되는 소셜 여행 플랫폼입니다.  
+> 여행 동행을 모집하고, 여행의 순간을 일기로 기록하며,  
+> 해외에서 사온 특별한 상품을 자유롭게 거래할 수 있습니다.  
+> 여행자들이 함께 **소통하고, 공유하며, 즐기는 새로운 여행 문화**를 만들어갑니다.
+
+---
+
+## 🧭 기획 의도
+
+<img width="893" height="491" alt="Image" src="https://github.com/user-attachments/assets/62bbc22b-547c-4f73-9385-987955c1642c" />
+
+<img width="892" height="497" alt="Image" src="https://github.com/user-attachments/assets/2e785061-087a-4c09-8021-0be51391ba9b" />
+
+> 본 프로젝트는 **청년층의 여행 기회 격차를 완화하고 경제적 부담을 줄이는 것**을 목표로 합니다.  
+> 단순한 여행 매칭 서비스를 넘어, **함께 여행하며 비용을 절감하고 새로운 관계를 형성할 수 있는 실질적 지원 플랫폼**입니다.
+
+### 💡 기획 배경
+
+
+1. **여행 기회 격차 해소**  
+   청년들은 학업·취업 등 현실적 제약으로 인해 **여행 경험의 불균형**을 겪고 있습니다.  
+   Crew Station은 **누구나 손쉽게 동행을 구하고 다양한 지역과 문화를 경험할 수 있는 환경**을 제공합니다.
+
+2. **경제적 부담 완화**  
+   개인 여행 시 발생하는 **숙박비·교통비 등의 높은 비용**은 청년층에게 큰 장벽이 됩니다.  
+   본 플랫폼은 **동행자 간 비용 분담을 통해 여행의 접근성을 높이는 구조**를 제시합니다.
+
+3. **안전하고 신뢰할 수 있는 여행 문화 조성**  
+   기존의 비공식 여행 동행 모집은 **신뢰성과 안전성의 한계**가 있었습니다.  
+   Crew Station은 **프로필 인증, 리뷰 시스템, 신고 기능** 등을 갖춰  
+   **안심하고 사람을 만나 여행할 수 있는 신뢰 기반 플랫폼**을 제공합니다.
+
+---
+
+> Crew Station은 청년들이 **경제적 제약 없이 여행을 즐기고, 새로운 인연을 만들며,  
+> 사회적 관계를 회복할 수 있는 공간**을 지향합니다.  
+> 단순한 여행 플랫폼을 넘어, **청년 세대의 자립과 기회 확장을 돕는 사회적 플랫폼**으로 발전해 나갑니다.
+
+---
+
+## 🌟 기대 효과
+
+<img width="1395" height="736" alt="Image" src="https://github.com/user-attachments/assets/66048866-0050-4afd-952b-4d2286b807b0" />
+
+### 1️⃣ 경제적 부담 완화와 기회 형평성 제고
+- 여행 동행 매칭을 통해 **항공·숙박비 등 주요 비용을 분담**하여  
+  **경제적 제약으로부터 자유로운 여행 기회**를 제공합니다.  
+- 소득 수준이나 배경에 관계없이 **누구나 해외여행을 경험할 수 있는 형평한 환경**을 조성합니다.
+
+### 2️⃣ 창업적 감각 함양
+- 해외여행 중 얻은 경험과 영감을 통해 **새로운 아이디어·상품·비즈니스 모델을 발견**할 수 있습니다.  
+- 글로벌 트렌드와 문화 소비 패턴을 직접 체험함으로써 **청년들의 창업 감각과 도전 의식**을 강화합니다.
+
+### 3️⃣ 콘텐츠 기반 성장
+- 여행 중의 기록과 사진, 후기 등 **개인의 경험이 곧 콘텐츠로 전환**됩니다.  
+- 사용자 간의 **여행 후기, 노하우, 스토리 공유**를 통해  
+  **콘텐츠 중심의 커뮤니티 생태계**가 형성됩니다.
+
+### 4️⃣ 심리적 안정감 제공
+- 낯선 환경에서도 **믿을 수 있는 동행자와 함께함으로써 불안감을 해소**합니다.  
+- 혼자 떠나는 여행이 아닌, **연대와 공감이 있는 여정**을 통해  
+  청년들이 **심리적 안정감과 소속감을 느낄 수 있는 공간**을 제공합니다.
+
+---
+
+> Crew Station은 **“함께 떠나고, 함께 성장하는 청년 여행 생태계”**를 지향하며,  
+> 경제·사회·심리적 측면에서 **청년들의 삶에 실질적인 변화를 만드는 플랫폼**으로 발전합니다.
+
+---
+
+## 🛠️ 기술 스택 (Tech Stack)
+
+| 구분 | 사용 기술 |
+|------|------------|
+| **HTML Engine** | Thymeleaf |
+| **Frontend** | HTML, JavaScript, CSS |
+| **Backend** | Spring Boot, Java |
+| **Database** | PostgreSQL, Redis |
+| **Infra** | AWS EC2, AWS IAM, AWS S3 |
+| **Development Tools** | VS Code, IntelliJ IDEA |
+| **API & Library** | Kakao Login, Kakao Map, Kakao 주소 API, SMTP Gmail API, REST API, Lombok, MyBatis, OAuth 2.0, Google Login, Boot Pay, Naver Login, JWT, Spring Security, CoolSMS, Swagger UI |
+| **Collaboration & Version Control** | Git, GitHub, Slack, Postman, Sourcetree |
+| **Testing** | JUnit5 |
+
+
+## 🗂 ERD (Entity Relationship Diagram)
+
+<img width="6222" height="6184" alt="Image" src="https://github.com/user-attachments/assets/6e275336-0946-4425-aae2-ccca73d4c320" />
+
+---
+## 👨‍💻 담당 업무 (Responsibilities)
+
+<img width="1590" height="747" alt="스크린샷 2025-10-31 164354" src="https://github.com/user-attachments/assets/397c451b-ad18-4a2f-a746-f5f1ea5bde30" />
+
+## 👨‍💻 담당 업무 (Responsibilities)
+
+### 🧾 마이페이지 (My Page)
+- 내 정보 조회 및 수정, 회원 탈퇴
+- 나의 활동 관리  
+  - 좋아요 한 일기 목록  
+  - 댓글 남긴 일기 목록
+- 나의 다이어리  
+  - 내가 작성한 일기 목록
+- 나의 구매내역  
+  - 목록 / 상세 / 주문 내역 조회 / 결제하기
+- 나의 판매내역  
+  - 목록 / 상세
+- 별점 등록 (케미지수 반영)
+
+### 🧍 게스트 (Guest)
+- 주문 내역 조회  
+- 비회원 결제하기  
+- 별점 등록 (케미지수 반영)
+
+## 🔧 트러블슈팅 (Troubleshooting)
+
+---
+
+### 1️⃣ PostgreSQL Timestamp 파싱 실패
+### ❌ 문제 코드
+
+> PostgreSQL에서 반환된 문자열이 5자리 이하인 경우,  
+> 포맷 불일치로 인해 `DateTimeParseException`이 발생.
+
+<img width="811" height="452" alt="트러블슈팅1_문제코드" src="https://github.com/user-attachments/assets/89a5802a-fee5-4f4d-bb51-c4a37085b517" />
+
+
+---
+
+### ✅ 해결 코드
+
+> 정규식을 이용해 **소수점 이하 자릿수를 자동 보정(6자리 맞춤)**.  
+> 누락된 자릿수는 `0`으로 채워 파싱 오류를 방지.
+
+<img width="823" height="684" alt="트러블슈팅2_해결코드" src="https://github.com/user-attachments/assets/e35223df-7467-471c-a54a-898331e7e6ce" />
+
+
+---
+
+> ✅ **결과**  
+> - PostgreSQL에서 반환되는 `timestamp(6)` 데이터가  
+>   마이크로초가 5자리 이하로 들어와도 정상적으로 파싱됨.  
+> - 모든 날짜 문자열이 `"yyyy.MM.dd"` 형식으로 일관성 있게 표시됨.
+
+---
+
+## 🧭 총평 (Project Retrospective)
+
+### 💡 기획
+프로젝트를 시작할 때는 **다양한 상황을 사전에 충분히 논의하고 준비하자**는 목표로 출발했습니다.  
+관계 간 다양한 상호 작용, 페이지 이동 설계 등 여러 시나리오를 정리해두었지만,  
+막상 실제 개발을 진행해보니 **생각보다 놓치는 부분이 많았다는 걸 깨달았습니다.**  
+
+기획 단계에서는 완벽하다고 느꼈던 흐름도,  
+구현 과정에서 새로운 예외가 계속 발생했고  
+그때마다 다시 논의하고 수정해야 했습니다.  
+이 경험을 통해 **“모든 경우의 수를 미리 예측하는 건 어렵지만,  
+그만큼 기획과 개발의 긴밀한 소통이 중요하다”**는 점을 배웠습니다.  
+
+결국 단순히 기능을 정의하는 기획이 아니라  
+**예외와 사용자 흐름까지 함께 설계하는 기획의 중요성**을 느꼈고,  
+다음 프로젝트에서는 더 세밀한 시나리오와  
+유연한 대응 구조를 준비해야겠다고 생각했습니다.
+
+---
+
+### 🤝 협업
+Spring Security와 JWT 같은 새로운 기술을 적용하면서  
+팀원 간 **정보 공유와 협업의 중요성**을 크게 느꼈습니다.  
+처음에는 각자 맡은 기능에 집중하다 보니,  
+보안 설정이나 토큰 검증 방식에 대한 정보가 제때 공유되지 않는 일이 있었습니다.  
+이후 Slack을 통해 진행 상황을 자주 공유하고  
+**짧은 회의라도 즉시 진행하는 방식으로 개선**하면서  
+협업 속도와 이해도가 모두 높아졌습니다.  
+특히 코드 리뷰를 통해 서로의 코드를 보고 의견을 나누는 과정이  
+**팀 전체의 기술 수준을 끌어올리는 좋은 계기**가 되었습니다.
+
+---
+
+### 🌟 좋았던 점
+이전 프로젝트보다 훨씬 다양한 기술을 경험할 수 있어서 큰 성장을 느꼈습니다.  
+**AWS EC2, S3, IAM, Spring Security, AOP, Swagger, JWT** 등  
+새로운 기술을 직접 적용해보며 실제 서비스 환경에서의 동작 원리를 이해했습니다.  
+특히 배포 과정과 인증 절차를 직접 다루면서  
+**백엔드 서비스가 운영되는 전반적인 구조**를 배울 수 있었습니다.  
+단순히 코드만 작성하는 개발자가 아니라  
+**서비스의 전체 흐름을 이해하고 설계할 수 있는 개발자**로 한 단계 성장한 경험이었습니다.
+
+---
+
+### ⚙️ 아쉬웠던 점
+기술적으로 많은 걸 시도했지만, **개발 속도와 완성도의 균형을 잡는 것**이 쉽지 않았습니다.  
+일부 기능은 일정에 맞추느라 테스트가 부족했고,  
+회의에서 논의된 내용이 문서화되지 않아 혼란이 생기기도 했습니다.  
+이 경험을 통해 **“속도보다 정확함, 회의보다 기록”**이 중요하다는 걸 배웠습니다.  
+다음 프로젝트에서는 **의사결정과 변경사항을 빠르게 문서화하고,  
+모든 팀원이 같은 정보를 공유하는 협업 문화**를 만들어가고 싶습니다.
+
+---
+
+📌 **작성자:** 구민경
+👥 **TEAM:** Crew  
+📅 **프로젝트 기간:** 2025.09.24 ~ 2025.10.19  
+🕒 **총 기간:** 2025.09.24 ~ 2025.10.24
+
