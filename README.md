@@ -99,6 +99,7 @@
 
 <img width="1590" height="747" alt="스크린샷 2025-10-31 164354" src="https://github.com/user-attachments/assets/397c451b-ad18-4a2f-a746-f5f1ea5bde30" />
 
+---
 
 ### 🧾 마이페이지 (My Page)
 - 내 정보 조회 및 수정, 회원 탈퇴
@@ -113,35 +114,32 @@
   - 목록 / 상세
 - 별점 등록 (케미지수 반영)
 
+---
+
 ### 🧍 게스트 (Guest)
 - 주문 내역 조회  
 - 비회원 결제하기  
 - 별점 등록 (케미지수 반영)
 
-## 🔧 트러블슈팅 (Troubleshooting)
-
 ---
 
+## 🔧 트러블슈팅 (Troubleshooting)
+
 ### 1️⃣ PostgreSQL Timestamp 파싱 실패
-### ❌ 문제 코드
+
+#### ❌ 문제 코드
 
 > PostgreSQL에서 반환된 문자열이 5자리 이하인 경우,  
 > 포맷 불일치로 인해 `DateTimeParseException`이 발생.
 
 <img width="811" height="452" alt="트러블슈팅1_문제코드" src="https://github.com/user-attachments/assets/89a5802a-fee5-4f4d-bb51-c4a37085b517" />
 
-
----
-
-### ✅ 해결 코드
+#### ✅ 해결 코드
 
 > 정규식을 이용해 **소수점 이하 자릿수를 자동 보정(6자리 맞춤)**.  
 > 누락된 자릿수는 `0`으로 채워 파싱 오류를 방지.
 
 <img width="823" height="684" alt="트러블슈팅2_해결코드" src="https://github.com/user-attachments/assets/e35223df-7467-471c-a54a-898331e7e6ce" />
-
-
----
 
 > ✅ **결과**  
 > - PostgreSQL에서 반환되는 `timestamp(6)` 데이터가  
@@ -159,7 +157,7 @@
 > `MyBatis`의 `selectOne()`은 **단일 행만 반환**해야 하지만,  
 > 중복 가능한 `purchaseId`를 조건으로 사용해 **여러 행이 반환되며 예외 발생**.
 
-### ✅ 해결 코드
+#### ✅ 해결 코드
 
 <img width="416" height="85" alt="트러블슈팅2_해결코드" src="https://github.com/user-attachments/assets/8ee7ab5c-0bf1-49d4-bdfb-9bbe98648cb1" />
 
@@ -169,6 +167,31 @@
 > 항상 단일 결과만 반환되므로 `selectOne()`에서 안전하게 사용 가능.
 
 ---
+
+### 🧩 3️⃣ SpEL 평가 오류 (SpelEvaluationException)
+
+#### ❌ 문제 상황
+
+<img width="1587" height="202" alt="스크린샷 2025-11-04 124222" src="https://github.com/user-attachments/assets/d467ba51-7548-44c3-b740-4c9f06cad087" />
+
+<img width="453" height="232" alt="스크린샷 2025-11-04 124237" src="https://github.com/user-attachments/assets/bc1696fc-d906-48a7-8518-c86e160b32c4" />
+<img width="238" height="25" alt="스크린샷 2025-11-04 124322" src="https://github.com/user-attachments/assets/a5d734ee-d111-4df5-8b32-24c4554845e1" />
+
+
+> Thymeleaf 템플릿에서  
+> `th:value="${modifyDTO.memberSnsLink}"`  
+> 를 사용했으나,  
+> `ModifyDTO` 클래스에 해당 필드(`memberSnsLink`)가 없어 **SpEL 평가 예외 발생**.
+---
+
+#### ✅ 해결 코드
+
+
+<img width="499" height="258" alt="스크린샷 2025-11-06 143626" src="https://github.com/user-attachments/assets/a3cefac9-4416-4281-a063-b880d3e45f11" />
+ 
+> **DTO의 실제 필드명(`memberSocialUrl`)에 맞춰 템플릿 코드를 수정하여 SpEL 평가 오류를 해결함.**  
+> 즉, Thymeleaf 표현식과 DTO의 프로퍼티명을 일치시켜 데이터 바인딩이 정상 작동하도록 변경.
+
 
 # 🧪QA Test
 
