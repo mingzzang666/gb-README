@@ -39,6 +39,9 @@
    
 ### 🔗 데이터 분석 보기
 
+
+<img width="560" height="468" alt="연도별2030출국자수" src="https://github.com/user-attachments/assets/2793dca1-5d6b-4855-bf75-637d2356ff7a" />
+
 ➡️ [청년 여행 트렌드 및 출국자 통계 분석](https://github.com/mingzzang666/data-analysis)
 
 
