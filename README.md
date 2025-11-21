@@ -160,7 +160,7 @@
 
 ### 2️⃣ TooManyResultsException 발생 (selectOne 다중 결과)
 
-#### 🧠 문제 상황
+#### ❌ 문제 상황
 
 <img width="1225" height="174" alt="트러블슈팅2_문제코드" src="https://github.com/user-attachments/assets/31928230-128d-419a-9451-d68da9c3db3d" />
 
